@@ -26,5 +26,6 @@ iconFamilies["aws"] = getFiles("aws")
 iconFamilies["azureCloud"] = getFiles("azureCloud")
 iconFamilies["azureEnterprise"] = getFiles("azureEnterprise")
 iconFamilies["cisco"] = getFiles("cisco")
+iconFamilies["kubernetes"] = getFiles("kubernetes")
 
 fs.writeFile('../js/iconFamilies.json', JSON.stringify(iconFamilies, null, 2) , 'utf-8');
